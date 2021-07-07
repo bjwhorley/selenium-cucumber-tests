@@ -7,18 +7,22 @@ import static org.testng.Assert.*;
 public class seleniumAutoTestsCucumberTest extends seleniumAutoTestsCucumber {
 
     @BeforeMethod
-    public void setUp() {
-        System.out.println("Being test");
+    public void setUp() throws InterruptedException {
+        System.out.println("Beginning test");
+        goToTestSite();
     }
 
     @Test
     public void test() throws Exception{
-        goToTestSite();
+        enterEmail();
+        clickButton();
     }
 
     @AfterMethod
-    public void tearDown() {
+    public void tearDown() throws InterruptedException {
         System.out.println("Ending Test");
+        Thread.sleep(500);
+
     }
 
 }

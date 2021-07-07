@@ -21,7 +21,6 @@
             <version>4.13.2</version>
             <scope>test</scope>
         </dependency>
-
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-chrome-driver</artifactId>
@@ -32,27 +31,16 @@
             <artifactId>cucumber-java</artifactId>
             <version>6.9.1</version>
         </dependency>
-
         <dependency>
             <groupId>io.cucumber</groupId>
             <artifactId>cucumber-core</artifactId>
             <version>6.9.1</version>
         </dependency>
-
         <dependency>
             <groupId>io.cucumber</groupId>
             <artifactId>cucumber-testng</artifactId>
             <version>6.9.1</version>
         </dependency>
-
-        <dependency>
-            <groupId>org.seleniumhq.selenium</groupId>
-            <artifactId>selenium-java</artifactId>
-            <version>3.141.59</version>
-        </dependency>
-
-
-
     </dependencies>
     <properties>
         <maven.compiler.source>16</maven.compiler.source>
